@@ -3,172 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez les activités de MegaJeune - Rejoignez nos groupes WhatsApp pour participer aux événements jeunesse">
-    <title>MegaJeune - Activités et Événements Jeunesse</title>
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- Préchargement des assets critiques -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
-    <link rel="preload" href="css/style.css" as="style">
-    <link rel="preload" href="js/script.js" as="script">
-    
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
-    <!-- CSS -->
+    <title>MegaJeune</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- Meta réseaux sociaux -->
-    <meta property="og:title" content="MegaJeune - Activités Jeunesse">
-    <meta property="og:description" content="Rejoignez nos activités via WhatsApp">
-    <meta property="og:image" content="https://pervenchebeorou.github.io/infomegajeune/images/affiche1.jpg">
-    <meta property="og:url" content="https://pervenchebeorou.github.io/infomegajeune/">
-    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="style.css"> <!-- Ajout du fichier CSS -->
 </head>
 <body>
-    <!-- En-tête avec navigation -->
     <header>
         <div class="header-content">
             <h1>MegaJeune</h1>
-            <p class="tagline">Votre plateforme d'activités jeunesse</p>
-            <nav aria-label="Navigation principale">
-                <ul class="nav-links">
-                    <li><a href="#activites" aria-current="page">Activités</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <p>" En CHRIST, vous êtes plus que vainqueur "</p>
         </div>
     </header>
 
-    <!-- Contenu principal -->
-    <main id="activites">
-        <section class="carousel-section" aria-labelledby="carousel-heading">
-            <h2 id="carousel-heading" class="visually-hidden">Nos activités</h2>
-            
-            <div class="carousel-container">
-                <!-- Bouton Précédent -->
-                <button class="carousel-btn" id="prevBtn" aria-label="Affiche précédente">
-                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
-                </button>
-                
-                <!-- Carousel -->
-                <div class="carousel" aria-live="polite">
-                    <!-- Slide 1 -->
-                    <article class="affiche-slide" aria-labelledby="activity-1">
-                        <figure>
-                            <img src="images/affiche1.jpg" alt="Atelier créatif avec des jeunes" class="affiche-img" loading="lazy">
-                            <figcaption class="visually-hidden">Affiche de l'atelier créatif</figcaption>
-                        </figure>
-                        
-                        <div class="affiche-content">
-                            <h3 id="activity-1">Atelier Créatif</h3>
-                            <div class="activity-meta">
-                                <p><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2023-10-15">15 octobre 2023</time></p>
-                                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Maison des Jeunes</p>
-                            </div>
-                            
-                            <p class="activity-description">Découvrez l'art du graffiti et de la peinture murale avec nos artistes locaux.</p>
-                            
-                            <a href="https://chat.whatsapp.com/LIENGROUPE1" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-whatsapp" aria-hidden="true"></i> Rejoindre le groupe
-                            </a>
-                        </div>
-                    </article>
-                    
-                    <!-- Slide 2 -->
-                    <article class="affiche-slide" aria-labelledby="activity-2">
-                        <figure>
-                            <img src="images/affiche2.jpg" alt="Tournoi sportif inter-quartiers" class="affiche-img" loading="lazy">
-                            <figcaption class="visually-hidden">Affiche du tournoi sportif</figcaption>
-                        </figure>
-                        
-                        <div class="affiche-content">
-                            <h3 id="activity-2">Tournoi Sportif</h3>
-                            <div class="activity-meta">
-                                <p><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2023-10-22">22 octobre 2023</time></p>
-                                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Stade Municipal</p>
-                            </div>
-                            
-                            <p class="activity-description">Compétition amicale de football et basketball entre quartiers.</p>
-                            
-                            <a href="https://chat.whatsapp.com/LIENGROUPE2" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-whatsapp" aria-hidden="true"></i> Rejoindre le groupe
-                            </a>
-                        </div>
-                    </article>
-                    
-                    <!-- Ajoutez d'autres slides ici -->
+    <div class="carousel-container">
+        <button class="carousel-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        
+        <div class="carousel">
+            <!-- Création 1 -->
+            <div class="affiche-slide">
+                <img src="images/logomegajeune.jpg" alt="Logo MegaJeune" class="affiche-img">
+                <div class="affiche-content">
+                    <h3>Jeune " gamé " pour JESUS</h3>
+                    <div class="activity-meta">
+                        <p><i class="far fa-calendar-alt"></i> 25 - 27 Avril 2025</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Église Catholique Sainte Trinité de Yopougon BEAGO</p>
+                    </div>
+                    <p>Rejoins notre groupe WhatsApp</p>
+                    <a href="https://chat.whatsapp.com/FGsUwyk5S0NJENJ52ZzfRK" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
                 </div>
-                
-                <!-- Bouton Suivant -->
-                <button class="carousel-btn" id="nextBtn" aria-label="Affiche suivante">
-                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
-                </button>
             </div>
             
-            <!-- Indicateurs -->
-            <div class="indicators" aria-label="Navigation des slides">
-                <!-- Générés dynamiquement par JavaScript -->
-            </div>
-        </section>
-    </main>
-
-    <!-- Pied de page -->
-    <footer id="contact">
-        <div class="footer-content">
-            <h2>Contactez-nous</h2>
-            
-            <div class="contact-methods">
-                <a href="tel:+123456789" class="contact-link">
-                    <i class="fas fa-phone-alt" aria-hidden="true"></i> +123 456 789
-                </a>
-                
-                <a href="mailto:contact@megajeune.org" class="contact-link">
-                    <i class="fas fa-envelope" aria-hidden="true"></i> contact@megajeune.org
-                </a>
-                
-                <a href="https://wa.me/123456789" class="contact-link whatsapp-link" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp
-                </a>
+            <!-- Autres créations -->
+            <div class="affiche-slide">
+                <img src="images/affichemegajeune.jpg" alt="Affiche principale" class="affiche-img">
+                <div class="affiche-content">
+                    <h3>Jeune " gamé " pour JESUS</h3>
+                    <div class="activity-meta">
+                        <p><i class="far fa-calendar-alt"></i> 25 - 27 Avril 2025</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Église Catholique Sainte Trinité de Yopougon BEAGO</p>
+                    </div>
+                    <p>Rejoins notre groupe WhatsApp</p>
+                    <a href="https://chat.whatsapp.com/FGsUwyk5S0NJENJ52ZzfRK" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
             </div>
             
-            <div class="social-links">
-                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <div class="affiche-slide">
+                <img src="images/programme.jpg" alt="Programme" class="affiche-img">
+                <div class="affiche-content">
+                    <h3>Jeune " gamé " pour JESUS</h3>
+                    <div class="activity-meta">
+                        <p><i class="far fa-calendar-alt"></i> 25 - 27 Avril 2025</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Église Catholique Sainte Trinité de Yopougon BEAGO</p>
+                    </div>
+                    <p>Rejoins notre groupe WhatsApp</p>
+                    <a href="https://chat.whatsapp.com/FGsUwyk5S0NJENJ52ZzfRK" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
             </div>
         </div>
         
-        <p class="copyright">&copy; 2023 MegaJeune - Tous droits réservés</p>
+        <button class="carousel-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <div class="indicators"></div>
+
+    <footer id="footer">
+        <p>© 2025 MegaJeune Créations | Contact : (00225) 07 89 97 81 08 / 01 60 22 46 98</p>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="js/script.js" defer></script>
-    
-    <!-- Script pour les utilisateurs sans JavaScript -->
-    <noscript>
-        <style>
-            .carousel-container, .indicators { display: none; }
-            .no-js-message { 
-                display: block; 
-                text-align: center; 
-                padding: 2rem; 
-                background: #f8f9fa;
-                margin: 2rem auto;
-                max-width: 800px;
-            }
-        </style>
-        <div class="no-js-message">
-            <h3>Activez JavaScript pour voir nos activités</h3>
-            <p>Voici nos prochains événements :</p>
-            <ul>
-                <li>Atelier Créatif - 15 octobre 2023</li>
-                <li>Tournoi Sportif - 22 octobre 2023</li>
-            </ul>
-            <p>Contact : contact@megajeune.org</p>
-        </div>
-    </noscript>
-    <script src="js/script.js" defer></script>
+    <script src="script.js"></script> <!-- Ajout du fichier JavaScript -->
 </body>
 </html>
